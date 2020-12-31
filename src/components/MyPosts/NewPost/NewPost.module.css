@@ -1,0 +1,26 @@
+.post {
+    display: flex;
+    align-items: center;
+}
+textarea {
+    margin: 20px;
+}
+.button {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(233, 135, 0);
+    box-shadow: 0 -3px rgb(233, 89, 0) inset;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background: rgb(219, 135, 0);
+}
+
+.button:active {
+    background: rgb(219, 99, 0);
+    box-shadow: 0 3px rgb(185, 115, 0) inset;
+}
