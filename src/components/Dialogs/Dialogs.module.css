@@ -1,6 +1,6 @@
 .dialogs {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
 }
 .dialog {
     margin: 20px;
@@ -13,8 +13,6 @@
 .dialog:hover {
     color: #730d0d;
 }
-
-
 
 .mess {
     margin: 20px;
