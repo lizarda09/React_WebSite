@@ -3,11 +3,12 @@
     grid-template-columns: 2fr 10fr;
 }
 .dialog {
-    margin: 20px;
+    margin: 30px;
     font-family: "Bodoni MT";
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
     color: #14292e;
+    text-decoration: none;
 }
 
 .dialog:hover {
@@ -15,5 +16,7 @@
 }
 
 .mess {
-    margin: 20px;
+    color: white;
+    font-family: "Bodoni MT";
+    font-size: 18px;
 }

@@ -8,7 +8,10 @@ const Post = (props) => {
             {props.message}
         </span>
         <button className={classes.like}>
-          Like &#9829;
+          Like&#128077;
+        </button>
+        <button className={classes.dislike}>
+            Dislike&#128078;
         </button>
     </div>
 }

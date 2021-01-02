@@ -1,0 +1,40 @@
+.text {
+    font-size: 24px;
+    color: white;
+}
+
+.ava {
+    width: 60px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+}
+.like {
+    font-size: 16px;
+    margin: 10px;
+    background-color: #f5403d;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.like:focus {
+    color: black;
+}
+
+.dislike {
+    font-size: 16px;
+    margin: 10px;
+    background-color: #768c94;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.dislike:focus {
+    color: black;
+}
