@@ -1,3 +1,4 @@
+/*-------------------dialogs--------------------------------------------*/
 .dialogs {
     display: grid;
     grid-template-columns: 2fr 10fr;
@@ -19,4 +20,33 @@
     color: white;
     font-family: "Bodoni MT";
     font-size: 18px;
+}
+.messages {
+    margin: 15px;
+}
+.button {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .6em 1em calc(.8em + 3px);
+    border-radius: 30px;
+    background: #962020;
+    box-shadow: 0 -3px #4d1212 inset;
+    transition: 0.2s;
+    width: 80px;
+    font-size: 16px;
+    margin: 10px 0 0 5px;
+}
+
+.button:hover {
+    background: #ba2929;
+}
+
+.sendMessage {
+    display: flex;
+    align-items: center;
+}
+
+.sendMessage textarea {
+    margin: 10px 0 0;
 }

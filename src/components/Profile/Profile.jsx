@@ -15,5 +15,5 @@ import ProfileInfo from "./ProfileInfo/ProfileInfo";
      </div>
      )
  }
-
+/*https://look.com.ua/pic/201510/1366x768/look.com.ua-134629.jpg*/
  export default Profile;
