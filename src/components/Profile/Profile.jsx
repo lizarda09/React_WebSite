@@ -10,7 +10,7 @@ import ProfileInfo from "./ProfileInfo/ProfileInfo";
          <div>
              <img className={classes.img} src="https://look.com.ua/pic/201510/1366x768/look.com.ua-134629.jpg" alt=""/>
              <ProfileInfo/>
-             <MyPosts posts={props.posts}/>
+             <MyPosts addPost={props.addPost} posts={props.posts}/>
          </div>
      </div>
      )

@@ -3,13 +3,13 @@ import classes from './NewPost.module.css';
 
 
 
-const NewPost = () => {
+const NewPost = (props) => {
 
    let newPostElement = React.createRef();
 
    let addNewPost = () => {
       let value = newPostElement.current.value;
-      alert(value);
+      props.addPost(value);
     }
 
     return <div className={classes.post}>

@@ -1,3 +1,5 @@
+import {rerenderTree} from "../render";
+
 let state = {
     profilePage:{
         postData : [
@@ -25,6 +27,15 @@ let state = {
         ]
     }
 };
+export let addPost = (post) =>{
+    let postOnClick = {
+        id: 6,
+        postValue: post
+    };
 
+    state.profilePage.postData.push(postOnClick);
+
+    rerenderTree(state);
+}
 
 export default state;
