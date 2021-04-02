@@ -27,6 +27,7 @@ let state = {
         ]
     }
 };
+
 export let addPost = (post) =>{
     let postOnClick = {
         id: 6,
